@@ -31,7 +31,7 @@ public final class SerialPort {
 
     private static final String TAG = "SerialPort";
 
-    public static final String DEFAULT_SU_PATH = "/system/bin/su";
+    public static final String DEFAULT_SU_PATH = "/system/xbin/su";
 
     private static String sSuPath = DEFAULT_SU_PATH;
     private File device;
